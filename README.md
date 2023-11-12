@@ -4,7 +4,7 @@ A super simple, and super fast HTTP request builder for NodeJS projects.
 
 If you want to send some simple http requests to a known URL, and you don't need anything too fancy, this is the module for you.
 
-Things like (Axios)[https://axios-http.com] is an awesome and _super_ useful module. But it's not _small_, and it definitely will increase your shippable JS bundle size. This might be a nice simple drop in alternative.
+Things like [Axios](https://axios-http.com) is an awesome and _super_ useful module. But it's not _small_, and it definitely will increase your shippable JS bundle size. This might be a nice simple drop in alternative.
 
 You _could_ (and perhaps should?) write your request with `node:http` directly of course. But it's not a small amount of code, and I for one _always_ have to check the [NodeJS docs](https://nodejs.org/docs/latest-v20.x/api/http.html) to make sure I have it right.
 
