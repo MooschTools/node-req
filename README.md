@@ -10,7 +10,7 @@ You _could_ (and perhaps should?) write your request with `node:http` directly o
 
 ## Usage
 
-This can be found in [testbed](../testbed/index.js).
+This can be found in [testbed](./testbed/index.js).
 
 ```javascript
 import { req } from '../index.js';
@@ -18,6 +18,10 @@ import { req } from '../index.js';
 const data = await req({ url: 'http://localhost', path: '/', port: 4001 });
 console.log( data );
 ```
+
+## Todo
+
+- [ ] Investigae if an http Agent is a good performance boost
 
 ## FAQ
 
